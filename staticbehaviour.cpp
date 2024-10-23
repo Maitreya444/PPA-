@@ -36,7 +36,7 @@ int Demo :: Y = 20;
 
 int main()
 {
-    Demo::gun();
+    Demo::gun(); //Non static
     Demo obj;
 
     obj.fun();  // fun(&obj);
